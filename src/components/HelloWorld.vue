@@ -26,6 +26,9 @@
       <li><a href="https://vue-loader.vuejs.org" target="_blank" rel="noopener">vue-loader</a></li>
       <li><a href="https://github.com/vuejs/awesome-vue" target="_blank" rel="noopener">awesome-vue</a></li>
     </ul>
+    <div class="test-img">
+    </div>
+    <img src="~_img/logo.png" alt="">
   </div>
 </template>
 
@@ -57,5 +60,10 @@ li {
 }
 a {
   color: #42b983;
+}
+.test-img{
+  width: 200px;
+  height: 200px;
+  background: url("~_img/logo.png") no-repeat center center;
 }
 </style>
